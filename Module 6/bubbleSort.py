@@ -4,11 +4,11 @@
 
 # Bubble sort
 
-numberList = [99, 5, 30, 15, 29, 63, 7]
+numberList = [99, 54, 30, 15, 29, 63, 7]
 nLenght = len(numberList)
-iterations = 0
 
-def bubbleSort(numberList, nLenght, iterations):
+def bubbleSort(numberList, nLenght):
+    iterations = 0
     for i in range(nLenght):
         for j in range(0, nLenght-i-1):
             iterations += 1
@@ -19,5 +19,5 @@ def bubbleSort(numberList, nLenght, iterations):
 
 
 print("Pre Sort: ", numberList)
-bubbleSort(numberList, nLenght, iterations)
+bubbleSort(numberList, nLenght)
 print("Bubble Sort: ", numberList)

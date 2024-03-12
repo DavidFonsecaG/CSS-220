@@ -14,7 +14,7 @@ def fib(n):
     else:
         return fib(n-1) + fib(n-2)
 
-print(fib(8))
-
-
+if __name__ == "__main__":
+    number = int(input("Enter a number to calculate it's Fibonacci number >> "))
+    print(fib(number))
 

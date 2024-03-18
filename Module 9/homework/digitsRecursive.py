@@ -8,6 +8,6 @@ def digits(n):
     else:
         return 1 + digits(n // 10)
 
-
 if __name__ == "__main__":
     print(digits(15))
+
